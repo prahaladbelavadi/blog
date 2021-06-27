@@ -1,28 +1,33 @@
-#!/bin/sh
+# #!/bin/sh
 
-if [ "`git status -s`" ]
-then
-    echo "The working directory is dirty. Please commit any pending changes."
-    exit 1;
-fi
+echo "Check netlify for deployment process"
+echo "Command used:'hugo -t github-style' "
 
-echo "Deleting old publication"
-rm -rf public
-mkdir public
-git worktree prune
-rm -rf .git/worktrees/public/
 
-echo "Checking out gh-pages branch into public"
-git worktree add -B gh-pages public origin/gh-pages
+# # if [ "`git status -s`" ]
+# # then
+# #     echo "The working directory is dirty. Please commit any pending changes."
+# #     exit 1;
+# # fi
 
-echo "Removing existing files"
-rm -rf public/*
+# echo "Deleting old publication"
+# rm -rf public
+# mkdir public
+# git worktree prune
+# rm -rf .git/worktrees/public/
 
-echo "Generating site"
-env HUGO_ENV="production" hugo -t github-style
+# echo "Checking out gh-pages branch into public"
+# # git worktree add -B gh-pages public origin/gh-pages
+# git worktree add -B gh-pages public
 
-echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+# echo "Removing existing files"
+# rm -rf public/*
 
-#echo "Pushing to github"
-git push --all
+# echo "Generating site"
+# env HUGO_ENV="production" hugo -t github-style
+
+# echo "Updating gh-pages branch"
+# cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+
+# #echo "Pushing to github"
+# git push --all
