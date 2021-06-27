@@ -1,3 +1,35 @@
-baseURL = "http://example.org/"
+baseURL = "https://blog.belavadi.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Prahalad Belavadi's blog"
+theme = "github-style"
+# googleAnalytics = "UA-123456-789"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Prahalad Belavadi"
+  description = "Description of the blog site"
+  github = "Prahaladbelavadi"
+  facebook = "Prahaladbelavadi"
+  twitter = "Prahaladbelavad"
+  linkedin = "Prahaladbelavadi"
+  instagram = "Prahaladbelavadi"
+#   tumblr = "MeiK2333"
+  email = "blog.belavadi.com@belavadi.com"
+  url = "https://belavadi.com"
+#   keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  favicon = "/images/github.png"
+  location = "USA"
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/Prahaladbelavadi"
+  [[params.links]]
+    title = "Link2"
+    href = "https://belavadi.com"
+    icon = "https://avatars.githubusercontent.com/u/16673094?v=4"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
