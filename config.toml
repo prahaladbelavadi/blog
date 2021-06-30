@@ -29,7 +29,7 @@ pygmentsUseClasses = true
   [[params.links]]
     title = "Link2"
     href = "https://belavadi.com"
-    icon = "https://avatars.githubusercontent.com/u/16673094?v=4"
+    icon = "https://blog.belavadi.com/images/avatar.png"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
