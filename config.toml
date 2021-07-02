@@ -8,24 +8,25 @@ pygmentsUseClasses = true
 
 [params]
   author = "Prahalad Belavadi"
-  description = "Description of the blog site"
-  github = "Prahaladbelavadi"
-  facebook = "Prahaladbelavadi"
-  twitter = "Prahaladbelavad"
-  linkedin = "Prahaladbelavadi"
-  instagram = "Prahaladbelavadi"
+  description = "Mostly Curation of what I think and find fascinating"
+  github = "prahaladbelavadi"
+  facebook = "prahaladbelavadi"
+  twitter = "prahaladbelavad"
+  linkedin = "prahaladbelavadi"
+  instagram = "prahaladbelavadi"
 #   tumblr = "MeiK2333"
-  email = "blog.belavadi.com@belavadi.com"
+  email = "git-blog@belavadi.com"
   url = "https://belavadi.com"
 #   keywords = "blog, google analytics"
   rss = true
   lastmod = true
   favicon = "/images/github.png"
-  location = "USA"
+  location = "03FF431A9B5E171DAF868252CD2EC902603B9E22"
 
   [[params.links]]
-    title = "Link"
+    title = "Medium"
     href = "https://github.com/Prahaladbelavadi"
+    icon = "https://blog.belavadi.com/images/medium.png"
   [[params.links]]
     title = "Link2"
     href = "https://belavadi.com"
