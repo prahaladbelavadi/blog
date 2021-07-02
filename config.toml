@@ -28,7 +28,7 @@ pygmentsUseClasses = true
     href = "https://github.com/Prahaladbelavadi"
     icon = "https://blog.belavadi.com/images/medium.png"
   [[params.links]]
-    title = "Link2"
+    title = "Website"
     href = "https://belavadi.com"
     icon = "https://blog.belavadi.com/images/terminal.png"
 
