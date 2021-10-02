@@ -6,14 +6,17 @@
     <description>Recent content on Prahalad Belavadi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Jun 2021 21:05:55 +0530</lastBuildDate><atom:link href="https://blog.belavadi.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 02:42:39 +0530</lastBuildDate><atom:link href="https://blog.belavadi.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Second_post</title>
-      <link>https://blog.belavadi.com/post/second_post/</link>
-      <pubDate>Wed, 30 Jun 2021 21:05:55 +0530</pubDate>
+      <title>How I Learn</title>
+      <link>https://blog.belavadi.com/post/how-i-learn/</link>
+      <pubDate>Sat, 17 Jul 2021 02:42:39 +0530</pubDate>
       
-      <guid>https://blog.belavadi.com/post/second_post/</guid>
-      <description>this is the second post in the posts directory</description>
+      <guid>https://blog.belavadi.com/post/how-i-learn/</guid>
+      <description>Process for Learning I suck at being consistent. I get distracted easily. Most learning content, I’ve either abandoned or skimmed. There’s very little I’ve actually finished, much less deeply in that scope.
+For Structured Theory heavy Courses: I watch them while eating food. It’s intriguing.
+Example: Behavioural Psychology by Robert Sapolsy on Youtube
+For Structured Technical Content on Udemy or YouTube: Most Youtube content I end up rewatching if I catch something of interest or something of high technical detail that I have to have to implement to understand, I do a code-along with the instructor.</description>
     </item>
     
   </channel>
