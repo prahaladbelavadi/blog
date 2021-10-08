@@ -1,7 +1,7 @@
 ---
 title: "Generic Advice"
 date: 2021-10-08T11:15:56+05:30
-draft: true
+draft: false
 ---
 
 I notice this trend where people are giving out advice. Not that there's anything wrong with it.
