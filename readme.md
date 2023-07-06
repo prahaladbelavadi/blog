@@ -3,6 +3,10 @@
 What does it do : Is a blog for 
 
 
+To setup:
+Run:
+`git clone  --recurse-submodules https://github.com/prahaladbelavadi/blog`
+
 To start Hugo server : 
 `hugo server`
 To genenrate new page:
@@ -13,5 +17,6 @@ To deploy :
 
 
 ref:
-`https://themes.gohugo.io/themes/github-style/`
-`https://gohugo.io/getting-started/usage/`
+- `https://gohugo.io/hosting-and-deployment/hosting-on-github/`
+- `https://themes.gohugo.io/themes/github-style/`
+- `https://gohugo.io/getting-started/usage/`
